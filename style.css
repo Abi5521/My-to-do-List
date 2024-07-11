@@ -1,0 +1,58 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(227, 216, 216);
+}
+#check{
+    color: gray;
+    text-decoration: line-through;
+}
+.section{
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
+}
+.container{
+    border: 4px double;
+    padding: 20px;
+    font-size: 20px;
+    background-color: rgb(187, 252, 167);
+}
+.container h1{
+    margin: 0;
+}
+input{
+    height: 20px;
+}
+input:focus{
+    background-color: cornsilk;
+}
+#btn1{
+    background-color: lightcyan;
+    padding: 5px 10px;
+    border-radius: 50px;
+    margin-left: 5px;
+}
+#btn1:hover{
+    background-color: rgb(0, 132, 255);
+}
+button{
+    cursor: pointer;
+    font-weight: 600;
+    border-radius: 10px;
+}
+.btn{
+    padding: 5px 10px;
+}
+.btn-1{
+    background-color: bisque;
+}
+.btn:hover{
+    background-color: azure;
+}
+.btn-2{
+    background-color: rgb(189, 109, 109);
+}
+.btn-3{
+    background-color: powderblue;
+}
